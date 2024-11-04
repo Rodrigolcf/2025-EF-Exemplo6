@@ -18,10 +18,10 @@ public class AplicacaoDbContext : DbContext
         // var logSql = new LoggerFactory();
         // logSql.AddProvider(new MeuLogProvider());
         // optionsBuilder.UseLoggerFactory(logSql);
-        optionsBuilder.UseNpgsql(@"Host=10.140.74.1;" +
-                                 "Username=biblioteca;" +
-                                 "Password=123456;" +
-                                 "Database=biblioteca;");
+        optionsBuilder.UseNpgsql(@"Host=10.140.74.50;" +
+                                 "Username=t1;" +
+                                 "Password=s1;" +
+                                 "Database=b1;");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
